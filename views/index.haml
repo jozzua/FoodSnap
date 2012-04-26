@@ -8,8 +8,12 @@
         .nine.columns
           %p Alpha
       .row
-        %h3 Share food.  Share Value.
-        %p
+        .twelve.columns
+          %h3 Share food.  Share Value.
+          %p To learn more, follow the updates on twitter:
+          %a.twitter-follow-button{"data-show-count" => "false", :href => "https://twitter.com/FoodSnapper"} Follow @FoodSnapper
+          :javascript
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
     .container
       #main
@@ -31,4 +35,8 @@
     #footer
       .row
         %hr
-        %p More info coming soon! 
+        %a.twitter-follow-button{"data-show-count" => "false", :href => "https://twitter.com/FoodSnapper"} Follow @FoodSnapper
+        :javascript
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
